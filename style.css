@@ -272,7 +272,6 @@ transform: scale(1.1);
 .footer-title span{
     color:rgb(255, 255, 255);
 }
-
 @media screen and (max-width:280px){
     .logo{
         font-weight: 500;
@@ -321,10 +320,45 @@ transform: scale(1.1);
   
 }
 
-@media screen and (min-width:281px) and (max-width:412){
-    .main{
-        padding: 0%;
+@media screen and (min-width:281px) and (max-width:690px){
+    .logo{
+        font-weight: 500;
+        font-size: 1.5em;
     }
+    header{
+        padding:10px 20px;
+        
+    }
+    .navigation a{
+        padding-right: 20px;;
+        font-size: 1em;
+    }
+    .main{
+        padding: 4px;
+    }
+    .bc h2{
+        font-size: 1.1em;
+    }
+    .bc span{
+        font-size: 1em;
+    }
+    .main-btn{
+        font-size: 1em;
+    }
+    .cards .title{
+        font-size: 1.3em;
+        
+    }
+    .card{
+        padding: 5px;   
+    }
+    .projects{
+        padding: 10px;
+    }
+    #contact .title{
+        font-display: center;
+    }
+}
 
 }
 }
