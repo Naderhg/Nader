@@ -330,21 +330,6 @@ header{
     }
 }
 
-@media(max-width:280px){
-    body{
-        font-size: 7px;
-    }
-
-    .main-content h2{
-        font-size: 0.6em;
-    
-    }
-        
-    
-    .main-content h3{
-        font-size: 1.1em;
-}
-
 @media (max-width: 280px){
 
     header{
