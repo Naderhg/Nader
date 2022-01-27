@@ -188,7 +188,7 @@ transform: scale(1.1);
     border: 1px solid white;
    min-height: 14em;
    width: 23em;
-   
+   overflow: hidden;
    border-radius: 10px;
    margin: 20px;
    transition: 0.7s ease;
