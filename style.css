@@ -273,5 +273,58 @@ transform: scale(1.1);
     color:rgb(255, 255, 255);
 }
 
+@media screen and (max-width:280px){
+    .logo{
+        font-weight: 500;
+        font-size: 1.5em;
+    }
+    header{
+        padding:12px 20px;
+        
+    }
+    .navigation a{
+        padding-right: 20px;;
+        font-size: 1em;
+    }
+    .main{
+        padding: 4px;
+    }
+    .bc h2{
+        font-size: 1.1em;
+    }
+    .bc span{
+        font-size: 1em;
+    }
+    .main-btn{
+        font-size: 1em;
+    }
+    .social-icons{
+        font-size: 0.8em;
+        padding-right: 0px;
+    }
+    .cards .title{
+        font-size: 1.3em;
+        
+    }
+    .card{
+        padding: 5px;   
+    }
+    .projects{
+        padding: 10px;
+    }
+    #services{
+        padding: 10px;
+    }
+    #contact{
+        padding: 10px;
+    }
+  
+}
 
+@media screen and (min-width:281px) and (max-width:412){
+    .main{
+        padding: 0%;
+    }
+
+}
 }
