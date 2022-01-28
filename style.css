@@ -128,20 +128,32 @@ i {
   color: blue;
   font: 2.2em;
   font-weight: 800;
-  margin: 30px;
+  margin: 10px 0;
 }
 
 .content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-rows: max-content;
   grid-auto-rows: max-content;
   justify-content: center;
   align-content: center;
   padding: 0 50px;
 }
 
+/* when screen is more than 1015px and less than 1200px */
+@media screen and (min-width: 759px) and (max-width: 1029px) {
+  .content {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .card-3{
+    grid-column: 1/3;
+  }
+}
+
+
 .card {
-  justify-self: center;
   background-color: white;
   box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
   border-radius: 10px;
@@ -154,6 +166,21 @@ i {
 .card:hover {
   transform: scale(1.03);
   box-shadow: 0 5px 25px rgba(1, 1, 1, 0.308);
+}
+
+.content2{
+  display: grid;
+  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-rows: max-content;
+  grid-auto-rows: max-content;
+  justify-content: center;
+  align-content: center;
+  padding: 0 50px;
+}
+
+.project-card{
+  cursor: pointer;
 }
 
 .icon {
@@ -175,6 +202,7 @@ i {
 
 .projects {
   background-color: rgb(13, 2, 75);
+  padding: 10px 0;
 }
 
 .projects h2 {
@@ -188,7 +216,6 @@ i {
   background-color: rgb(255, 255, 255);
   border: 1px solid white;
   min-height: 14em;
-  width: 23em;
   overflow: hidden;
   border-radius: 10px;
   margin: 20px;
@@ -196,7 +223,7 @@ i {
 }
 
 .project-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .project-card:hover .project-image {
@@ -230,9 +257,8 @@ i {
 .more-details:hover {
   color: #000;
 }
-
 .contact .icon {
-  font-size: 4.5em;
+  font-size: 4em;
 }
 
 .contact .info h3 {
