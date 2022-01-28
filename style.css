@@ -333,6 +333,16 @@ transform: scale(1.1);
         padding-right: 20px;;
         font-size: 1em;
     }
+    
+    .navigation .n{
+        padding-left: 20px;
+    }
+    .navigation .b{
+        padding: 10px;
+    }
+    .navigation .c{
+        padding: 10px;
+    }
     .main{
         padding: 4px;
     }
