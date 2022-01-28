@@ -11,17 +11,23 @@
 <body>
     
 <header>
-<a href="#" class="logo">Nader</a>
+<a href="#home" class="logo">Nader</a>
 <nav class="navigation">
-    <a href="#services">Services</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <a class="nav-links" href="#home">home</a>
+    <a class="nav-links" href="#services">Services</a>
+    <a class="nav-links" href="#projects">Projects</a>
+    <a class="nav-links" href="#contact">Contact</a>
 
+    <div class="menu-btn">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+    </div>
 </nav>
 
 </header>
 
-<section class="main">
+<section id="home" class="main">
     <div class="bc">
         <h2>Hello, I'm Nader<br><span>Front-end Developer</span></h2>
         <h3>freelance web Designer & Developer </h3>
@@ -79,7 +85,7 @@
 
 <section class="projects" id="projects">
     <h2 class="title">Projects in 2022</h2>
-    <div class="content">
+    <div class="content2">
         <div class="project-card">
             <div class="project-image">
                 <img src="images/Capture.PNG" />
@@ -188,7 +194,8 @@
     <p class="footer-title">Copyrights @ <span> Nader Maged</span></p>
     
     <div class="social-icons">
-        <a href="https://www.facebook.com/nader.alnegm.71"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.facebook.com/nader.alnegm.71">
+            <i class="fab fa-facebook"></i></a>
         <a href="https://www.instagram.com/naderr_maged/"><i class="fab fa-instagram-square"></i></a>
         <a href="https://github.com/Naderhg"><i class="fab fa-github-square"></i></a>
         <a href="https://www.behance.net/naderabkarino1"><i class="fab fa-behance-square"></i></a>
@@ -196,5 +203,7 @@
     </div>
 
 </footer>
+
+<script src="./app.js"></script>
 </body>
 </html>
